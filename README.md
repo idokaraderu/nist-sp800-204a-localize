@@ -1,4 +1,4 @@
-# NIST SP 800 204a 和訳化
+# Building Secure Microservices-based Applications Using Service-Mesh Architecture和訳
 
 個人的な勉強のため，NIST SP 800-204a "Building Secure Microservices-based Applications Using Service-Mesh Architecture" を和訳していきます。
 
