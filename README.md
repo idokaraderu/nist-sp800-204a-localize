@@ -103,7 +103,45 @@ SM-AR1およびSM-AR2と比較して，SM-AR3はサービスメッシュの機�
 
 ### 1.4 他NISTガイダンス文書との関係
 
-本ガイダンス文書は、マイクロサービスベースのアプリケーションのための特定セキュリティフレームワークやインフラストラクチャの構築に焦点を当てている。マイクロサービスベースのアプリケーションの特性と、その全体的なセキュリティ要件や戦略の理解に有益であり，情報はNIST特別刊行物（SP）800-204「[マイクロサービスベースのアプリケーションシステムのセキュリティ戦略](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-204.pdf)」[1]で提供されている。
+本ガイダンス文書は、マイクロサービスベースのアプリケーションのための特定セキュリティフレームワークやインフラストラクチャの構築に焦点を当てている。マイクロサービスベースのアプリケーションの特性と、その全体的なセキュリティ要件や戦略の理解に有益であり，情報はNIST特別刊行物（SP）800-204「[マイクロサービスベースのアプリケーションシステムのセキュリティ戦略][1]」で提供されている。
 
 ### 1.5 本文書の構成
 
+本文書の構成は以下の通りである。
+
+- 2章では、[\[1\]][1]で述べたマイクロサービスベースのアプリケーションのセキュリティ要件を参照し，マイクロサービスベースのアプリケーションのセキュリティ要件を要約する
+- 
+
+## 参考
+
+1. Chandramouli R (2019) Security Strategies for Microservices-based Application Systems. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-204. https://doi.org/10.6028/NIST.SP.800-204
+2. Indrasiri K (2017) Service Mesh for Microservices. Available at https://medium.com/microservices-in-practice/service-mesh-for-microservices-2953109a3c9a
+3. Lerner A, Thomas A (2018) Innovation Insight for Service Mesh. Available athttps://www.gartner.com/en/documents/3894156/innovation-insight-for-service-mesh
+4. Morgan W (2017) What’s a service mesh? And why do I need one? Available athttps://buoyant.io/2017/04/25/whats-a-service-mesh-and-why-do-i-need-one/#_ga=2.39876518.581209135.1575405453-1411561046.1575405453
+5. Mishra A (2017) Smart Networking with Consul and Service Meshes. Available at.https://www.hashicorp.com/blog/smart-networking-with-consul-and-service-meshes/
+6. Schiesser M (2019) Comparing Service Meshes: Linkerd vs. Istio. Available at https://medium.com/glasnostic/comparing-service-meshes-linkerd-vs-istio-c7e0132578a8
+7. Bryant D (2018) The Importance of Control Planes with Service Meshes and Front Proxies. Available at https://blog.getambassador.io/the-importance-of-control-planes-with-service-meshes-and-front-proxies-665f90c80b3d
+8. Kirschner E (2017) Proxy Based Service Mesh. Available at https://medium.com/@entzik/proxy-based-service-mesh-96cd4b74c198
+9. Tiwari A (2017) A sidecar for your service mesh. Available at https://www.abhishek-tiwari.com/a-sidecar-for-your-service-mesh/
+10. Sridharan C (2018) The Three Pillars of Observability. Distributed Systems Observability(O’Reilly Media, Inc., Sebastopol, CA), Chapter 4. Available at    https://www.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch04.html
+11. Jaeger Project (2020) Jaeger: open source, end-to-end distributed tracing. Available at https://www.jaegertracing.io/
+12. Zipkin Project (2020) Zipkin. Available at https://zipkin.io/
+13. Leong A (2019) A guide to distributed tracing with Linkerd. Available at https://linkerd.io/2019/10/07/a-guide-to-distributed-tracing-with-linkerd/
+14. Stafford GA (2019) Kubernetes-based Microservice Observability with Istio Service Mesh: Part 1 (ITNEXT). Available at https://itnext.io/kubernetes-based-microservice-observability-with-istio-service-mesh-part-1-  bed3dd0fac0b
+15. Stafford GA (2019) Istio Observability with Go, gRPC, and Protocol Buffers-based Microservices (ITNEXT). Available at. https://itnext.io/istio-observability-with-go-grpc-and-protocol-buffers-based-microservices-d09e34c1255a
+
+[1]:https://doi.org/10.6028/NIST.SP.800-204
+[2]:https://medium.com/microservices-in-practice/service-mesh-for-microservices-2953109a3c9a
+[3]:https://www.gartner.com/en/documents/3894156/innovation-insight-for-service-mesh
+[4]:https://buoyant.io/2017/04/25/whats-a-service-mesh-and-why-do-i-need-one/#_ga=2.39876518.581209135.1575405453-1411561046.1575405453
+[5]:https://www.hashicorp.com/blog/smart-networking-with-consul-and-service-meshes/
+[6]:https://medium.com/glasnostic/comparing-service-meshes-linkerd-vs-istio-c7e0132578a8
+[7]:https://blog.getambassador.io/the-importance-of-control-planes-with-service-meshes-and-front-proxies-665f90c80b3d
+[8]:https://medium.com/@entzik/proxy-based-service-mesh-96cd4b74c198
+[9]:https://www.abhishek-tiwari.com/a-sidecar-for-your-service-mesh/
+[10]:https://www.oreilly.com/library/view/distributed-systems-observability/9781492033431/ch04.html
+[11]:https://www.jaegertracing.io/
+[12]:https://zipkin.io/
+[13]:https://linkerd.io/2019/10/07/a-guide-to-distributed-tracing-with-linkerd/
+[14]:https://itnext.io/kubernetes-based-microservice-observability-with-istio-service-mesh-part-1-bed3dd0fac0b
+[15]:https://itnext.io/istio-observability-with-go-grpc-and-protocol-buffers-based-microservices-d09e34c1255a
