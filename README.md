@@ -302,7 +302,7 @@ SM-AR1およびSM-AR2と比較して，SM-AR3はサービスメッシュの機�
 
 1. Chandramouli R (2019) Security Strategies for Microservices-based Application Systems. (National Institute of Standards and Technology, Gaithersburg, MD), NIST Special Publication (SP) 800-204. https://doi.org/10.6028/NIST.SP.800-204
 2. Indrasiri K (2017) Service Mesh for Microservices. Available at https://medium.com/microservices-in-practice/service-mesh-for-microservices-2953109a3c9a
-3. Lerner A, Thomas A (2018) Innovation Insight for Service Mesh. Available athttps://www.gartner.com/en/documents/3894156/innovation-insight-for-service-mesh
+3. Lerner A, Thomas A (2018) Innovation Insight for Service Mesh. Available at https://www.gartner.com/en/documents/3894156/innovation-insight-for-service-mesh
 4. Morgan W (2017) What’s a service mesh? And why do I need one? Available athttps://buoyant.io/2017/04/25/whats-a-service-mesh-and-why-do-i-need-one/#_ga=2.39876518.581209135.1575405453-1411561046.1575405453
 5. Mishra A (2017) Smart Networking with Consul and Service Meshes. Available at.https://www.hashicorp.com/blog/smart-networking-with-consul-and-service-meshes/
 6. Schiesser M (2019) Comparing Service Meshes: Linkerd vs. Istio. Available at https://medium.com/glasnostic/comparing-service-meshes-linkerd-vs-istio-c7e0132578a8
