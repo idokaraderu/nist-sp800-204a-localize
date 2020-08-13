@@ -2,18 +2,19 @@
 
 勉強のため，NIST SP 800-204a "Building Secure Microservices-based Applications Using Service-Mesh Architecture" を和訳します。原文は[こちら](https://csrc.nist.gov/publications/detail/sp/800-204a/final)です。
 
-権限的に問題がありましたら公開を取りやめますので，お手数ですがご連絡ください。
+権限的に問題がある場合は公開を取りやめますので，お手数ですがご指摘下さい。
 
-技術的な内容はなるべく文意に沿って翻訳いたしますが，内容の正確さを保証するものではございません。  
-また，謝辞など技術に関係ない節は省略しております。
+技術的な内容はなるべく文意に沿って翻訳いたしますが，内容の正確さを保証するものではございません。また，謝辞など技術に関係ない節は省略しております。
 
 なお，翻訳にあたり，[DEEPL](https://www.deepl.com/home)や[Google Translate](https://translate.google.co.jp/)を活用させていただいております。
+
+以下から訳となります。
 
 ---
 
 NIST Special Publication 800-204A
 
-# サービスメッシュアーキテクチャを用いたセキュアなマイクロサービス型アプリケーションの構築
+## サービスメッシュアーキテクチャを用いたセキュアなマイクロサービス型アプリケーションの構築
 
 - Ramaswamy Chandramouli, Zack Butcher著
 - https://doi.org/10.6028/NIST.SP.800-204A
